@@ -8,12 +8,33 @@
         GitHub: https://github.com/richardjanderson9/
 */
 
+// Importing the necessary React libraries.
 import React from 'react';
+
+// Importing components from other files (JSX)!
+import NavBar from './components/NavBar'; // Navigation bar component.
+import AboutMe from './components/AboutMe'; // About Me section component.
+import Certifications from './components/Certifications'; // Certifications section component.
+import Projects from './components/Projects'; // Projects section component.
+import Contact from './components/Contact'; // Contact section component.
+import Footer from './components/Footer'; // Footer component.
+
+// Importing styles from other files (CSS)!
+import './components/assets/css/App.css'; // Importing styles from the './App.css' file to use across components.
 
 // Create a component that displays the current date
 function App() {
-  const currentDate = new Date().toLocaleDateString(); // Get the current date in localized string format
-  return <div><h1>Current Date: {currentDate}</h1></div>; // Render the date inside an h1 tag using JSX
+  return (
+    <div>
+      <NavBar/>
+      <AboutMe />
+      <Certifications />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
 export default App; // Export the component for use in other parts of the application
+
