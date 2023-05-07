@@ -1,4 +1,41 @@
+/*
+    Writen By Richard Anderson!
+    Project: Personal Portfolio!
+    Last Update: 7th May 2023.
+    Social(s):
+        LinkedIn: https://www.linkedin.com/in/richardjanderson9/
+        Website: https://portfolio.richardjanderson.uk/
+        GitHub: https://github.com/richardjanderson9/
+*/
+
+/* Code for App Body! */
 body{
-    background: #000000;
-    color: #ffffff;
+    background: #000000; /* Background1 */
+    color: #ffffff; /* All Text! */
+}
+
+/* Code for Height of Each Section! | Lines 17-36! */
+.block-full{
+    min-height: 100vh;
+}
+/* Sections: Header, AboutMe, Certifications, Projects! */
+.block-general{
+    min-height: 100vh;
+}
+/* Section: NavBar! */
+.block-navbar{
+    min-height: 100vh;
+}
+/* Section: Contact! */
+.block-contact{
+    min-height: 100vh;
+}
+/* Section: Footer! */
+.block-footer{
+    min-height: 100vh;
+}
+
+/* Testing Outline! | Lines 38-41! */
+.testing-outline{
+    border-bottom: 2.5px solid white;
 }

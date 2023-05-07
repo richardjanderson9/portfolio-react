@@ -8,12 +8,15 @@
         GitHub: https://github.com/richardjanderson9/
 */
 
+// Importing styles from other files (CSS)!
+import '../components/assets/css/App.css'; // Importing styles from the './App.css' file to use across components.
+
 // Define the Projects component!
 function Projects() {
     const data = ("Projects!");
     return (
       <div>
-        <h1>Loaded: {data}</h1>
+        <h1 className="block-general testing-outline">Loaded: {data}</h1>
       </div>
     );
   }

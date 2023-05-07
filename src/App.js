@@ -12,7 +12,8 @@
 import React from 'react';
 
 // Importing components from other files (JSX)!
-import NavBar from './components/NavBar'; // Navigation bar component.
+import NavBar from './components/NavBar'; // Headersection component.
+import Header from './components/Header'; // Headersection component.
 import AboutMe from './components/AboutMe'; // About Me section component.
 import Certifications from './components/Certifications'; // Certifications section component.
 import Projects from './components/Projects'; // Projects section component.
@@ -26,7 +27,8 @@ import './components/assets/css/App.css'; // Importing styles from the './App.cs
 function App() {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
+      <Header />
       <AboutMe />
       <Certifications />
       <Projects />

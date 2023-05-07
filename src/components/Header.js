@@ -11,14 +11,14 @@
 // Importing styles from other files (CSS)!
 import '../components/assets/css/App.css'; // Importing styles from the './App.css' file to use across components.
 
-//Define the Footer component!
-function Footer() {
-    const data = ("Footer!");
+//Define the Header component!
+function Header() {
+    const data = ("Header!");
     return (
       <div>
-        <h1 className="block-footer testing-outline">Loaded: {data}</h1>
+        <h1 className="block-general testing-outline">Loaded: {data}</h1>
       </div>
     );
   }
   
-export default Footer; // Export the component for use in other parts of the application!  
+export default Header; // Export the component for use in other parts of the application!  
