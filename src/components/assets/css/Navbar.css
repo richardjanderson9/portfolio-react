@@ -1,0 +1,79 @@
+/*
+    Writen By Richard Anderson!
+    Project: Personal Portfolio!
+    Last Update: 8th May 2023.
+    Social(s):
+        LinkedIn: https://www.linkedin.com/in/richardjanderson9/
+        Website: https://portfolio.richardjanderson.uk/
+        GitHub: https://github.com/richardjanderson9/
+*/
+
+/* Styling for the navbar! */
+.navbar{
+    height: 62.5px; /* Set the height of the navbar! */
+    display: flex; /* Use flexbox to align navbar contents! */
+    align-items: center; /* Center align the navbar contents vertically! */
+    justify-content: center; /* Center align the navbar contents horizontally! */
+    position: fixed; /* Fix the navbar position! */
+    top: 0; /* Position the navbar at the top of the page! */
+    width: 100%; /* Set the navbar width to full width! */
+    z-index: 999; /* Ensure the navbar appears above other elements! */
+  }
+  
+  /* Styling for the navbar list! */
+  .navbar-list{
+    list-style-type: none; /* Remove default list styling! */
+    display: flex; /* Use flexbox to align list items horizontally! */
+    justify-content: space-between; /* Distribute list items evenly! */
+    width: 500px; /* Set a fixed width for the navbar list! */
+    padding: 0; /* Remove padding from the navbar list! */
+  }
+  
+  /* Styling for the navbar items! */
+  .navbar-item{
+    margin: 0 10px; /* Add margin between navbar items! */
+  }
+  
+  /* Styling for the navbar links! */
+  .navbar-link{
+    text-decoration: none; /* Remove text decoration for links! */
+    color: #ffffff; /* Set the default text color to white! */
+    transition: color 0.35s ease, filter 0.35s ease; /* Add transitions for color and filter properties on hover! */
+  }
+  
+  /* Additional styling for navbar links! */
+  .navbar-link{
+    text-decoration: none; /* Remove the default underline! */
+    position: relative; /* Create a stacking context for the pseudo-element! */
+  }
+  
+  /* Styling for the underline effect on navbar links! */
+  .navbar-link::after{
+    content: ""; /* Create an empty content! */
+    position: absolute; /* Position the pseudo-element absolutely! */
+    left: 50%; /* Align the pseudo-element to the middle! */
+    transform: translateX(-50%); /* Move the pseudo-element back by 50% of its own width! */
+    bottom: -2px; /* Position the pseudo-element below the link! */
+    width: 0; /* Set initial width to 0 for animation! */
+    height: 2px; /* Set the height of the underline! */
+    background-color: #006500; /* Set the color of the underline to green! */
+    transition: width 0.95s ease, transform 0.65s ease; /* Add animations for width change and transform! */
+  }
+  
+  /* Styling for the underline effect on navbar links on hover! */
+  .navbar-link:hover::after{
+    width: 100%; /* Expand the width to 100% on hover! */
+    transform: translateX(-50%); /* Keep the pseudo-element centered during the animation! */
+  }
+  
+  /* Brighten the text on hover! */
+  .navbar-link:hover{
+    filter: brightness(1.2); /* Increase brightness to 120% on hover! */
+  }
+  
+  /* Media query for mobile devices! */
+@media (max-width: 767px){
+    .navbar{
+      zoom: 87.5%; /* Set zoom level to 90% on mobile! */
+    }
+  }

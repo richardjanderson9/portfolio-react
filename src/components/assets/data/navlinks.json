@@ -1,0 +1,8 @@
+{
+    "links": [
+      { "title": "About Me", "url": "#AboutMe", "openInNewTab": false },
+      { "title": "Certifications", "url": "#Certifications", "openInNewTab": false },
+      { "title": "Projects", "url": "#Projects", "openInNewTab": false },
+      { "title": "Contact", "url": "#Contact", "openInNewTab": false }
+    ]
+  }

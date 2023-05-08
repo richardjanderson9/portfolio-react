@@ -1,24 +1,38 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 7th May 2023.
+    Last Update: 8th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
         GitHub: https://github.com/richardjanderson9/
 */
 
-// Importing styles from other files (CSS)!
-import '../components/assets/css/App.css'; // Importing styles from the './App.css' file to use across components.
+import React from 'react'; // Import React library
+import './assets/css/Navbar.css'; // Import styles from the './Navbar.css' file
+import linksData from './assets/data/navlinks.json'; // Import the JSON data file containing links
 
-// Define the NavBar component!
-function NavBar() {
-    const data = ("NavBar!");
-    return (
-      <div>
-        <h1 className="block-navbar testing-outline">Loaded: {data}</h1>
-      </div>
-    );
-  }
-  
-export default NavBar; // Export the component for use in other parts of the application!
+const Navbar = () => {
+  let { links } = linksData;
+
+  return (
+    <nav className="navbar">
+      <ul className="navbar-list">
+        {links.map(({ url, openInNewTab, title }, index) => (
+          <li className="navbar-item" key={index}>
+            <a
+              href={url}
+              className="navbar-link"
+              target={openInNewTab ? '_blank' : '_self'}
+              rel={openInNewTab ? 'noopener noreferrer' : ''}
+            >
+              {title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
