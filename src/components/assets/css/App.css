@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 8th May 2023.
+    Last Update: 9th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -38,6 +38,15 @@
 /* Section: Footer! */
 .block-footer{
     min-height: 7.5vh;  /* Set the height of the section! */
+}
+
+/* || Formatting General! */
+/* Details: General Formatting! */
+.formatting-general{
+    display: flex; /* Use flexbox to align navbar contents! */
+    align-items: center; /* Center align the navbar contents vertically! */
+    justify-content: center; /* Center align the navbar contents horizontally! */
+    position: fixed; /* Fix the navbar position! */
 }
 
 /* || Testing Outline! */

@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 8th May 2023.
+    Last Update: 9th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -11,10 +11,6 @@
 /* Styling for the navbar! */
 .navbar{
     height: 62.5px; /* Set the height of the navbar! */
-    display: flex; /* Use flexbox to align navbar contents! */
-    align-items: center; /* Center align the navbar contents vertically! */
-    justify-content: center; /* Center align the navbar contents horizontally! */
-    position: fixed; /* Fix the navbar position! */
     top: 0; /* Position the navbar at the top of the page! */
     width: 100%; /* Set the navbar width to full width! */
     z-index: 999; /* Ensure the navbar appears above other elements! */
@@ -25,7 +21,7 @@
     list-style-type: none; /* Remove default list styling! */
     display: flex; /* Use flexbox to align list items horizontally! */
     justify-content: space-between; /* Distribute list items evenly! */
-    width: 500px; /* Set a fixed width for the navbar list! */
+    width: 525px; /* Set a fixed width for the navbar list! */
     padding: 0; /* Remove padding from the navbar list! */
   }
   
@@ -34,18 +30,11 @@
     margin: 0 10px; /* Add margin between navbar items! */
   }
   
-  /* Styling for the navbar links! */
-  .navbar-link{
-    text-decoration: none; /* Remove text decoration for links! */
-    color: #ffffff; /* Set the default text color to white! */
+  .navbar-link {
     transition: color 0.35s ease, filter 0.35s ease; /* Add transitions for color and filter properties on hover! */
-  }
-  
-  /* Additional styling for navbar links! */
-  .navbar-link{
-    text-decoration: none; /* Remove the default underline! */
+    text-decoration: none; /* Remove text decoration for links! */
     position: relative; /* Create a stacking context for the pseudo-element! */
-  }
+  }  
   
   /* Styling for the underline effect on navbar links! */
   .navbar-link::after{
@@ -68,12 +57,12 @@
   
   /* Brighten the text on hover! */
   .navbar-link:hover{
-    filter: brightness(1.2); /* Increase brightness to 120% on hover! */
+    filter: brightness(1.8); /* Increase brightness to 120% on hover! */
   }
   
   /* Media query for mobile devices! */
 @media (max-width: 767px){
     .navbar{
-      zoom: 87.5%; /* Set zoom level to 90% on mobile! */
+      zoom: 86.75%; /* Set zoom level to specific value on mobile! */
     }
   }
