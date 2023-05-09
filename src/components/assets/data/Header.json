@@ -1,0 +1,16 @@
+{
+  "heading": {
+    "text": "Welcome to my Website!",
+    "display": true
+  },
+  "description": {
+    "text": "Passionate Cyber-Security Graduate with a talent for connecting and learning.",
+    "display": true
+  },
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/",
+    "username": "richardjanderson9",
+    "target": "_blank",
+    "rel": "noreferrer"
+  }
+}
