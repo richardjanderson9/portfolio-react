@@ -14,6 +14,7 @@
     top: 0; /* Position the navbar at the top of the page! */
     width: 100%; /* Set the navbar width to full width! */
     z-index: 999; /* Ensure the navbar appears above other elements! */
+    position: fixed; /* Fix the navbar position! */
   }
   
   /* Styling for the navbar list! */
