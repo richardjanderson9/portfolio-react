@@ -17,9 +17,9 @@ const Header = () => {
   const { heading, description, linkedin } = headerData;
 
   return (
-    <div className="block-general formatting-general formatting-header">
-      {heading.display && <h1 className='text-heading'>{heading.text}</h1>}
-      {description.display && <p className='text-information'>{description.text}</p>}
+    <div className="block-general formatting-general text-general">
+      {heading.display && <h1 className="text-heading">{heading.text}</h1>}
+      {description.display && <p className="text-information">{description.text}</p>}
       <a href={`${linkedin.url}${linkedin.username}`} className="header-button" target={linkedin.target} rel={linkedin.rel}>
         <FaLinkedin />
       </a>

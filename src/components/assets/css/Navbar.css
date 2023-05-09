@@ -60,10 +60,3 @@
   .navbar-link:hover{
     filter: brightness(1.8); /* Increase brightness to 120% on hover! */
   }
-  
-  /* Media query for mobile devices! */
-@media (max-width: 767px){
-    .navbar{
-      zoom: 86.75%; /* Set zoom level to specific value on mobile! */
-    }
-  }

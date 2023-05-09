@@ -56,21 +56,31 @@
 }
 /* Details: Any Links! */
 .formatting-links{
-    text-decoration: none;
+    text-decoration: none; /* Blocks the underline for links! */
 }
 
 /* || Formatting General! | Text! */
+/* Details: General Sizes! | H1 Tag! */
+.text-general h1{
+    font-size: 2.1rem;
+}
+/* Details: General Sizes! | Paragraph Tag! */
+.text-general p{
+    font-size: 1.15rem;
+}
 /* Details: Heading Sizes! */
 .text-heading{
     margin-bottom: 1rem; /* Add space below the heading */
-    font-size: 2.5rem; /* Heading font size */
     font-weight: 500; /* Specify the font weight */
 }
 /* Details: Information Sizes! */ 
 .text-information{
     margin-bottom: 1.5rem; /* Add space below the description */
-    font-size: 1.2rem; /* Description font size */
     font-weight: 500; /* Specify the font weight */
+}
+/* Details: Text Compress! */
+.text-compress{
+    width: 87.5%;
 }
 /* Details: Header Button! */ 
 .header-button{
@@ -96,3 +106,17 @@
     background: #006500; /* Background Colour! */
     border-radius: 10px; /* Rounded corners! */
 }
+
+/* || Mobile Device Changes! */
+/* Changes for Mobile Device(s)!*/
+@media (max-width: 767px){
+    .navbar{
+      zoom: 87.5%; /* Set zoom level to specific value on mobile! */
+    }
+    .navbar-list{
+      width: 400px; /* Set a fixed width for the navbar list! */
+    }
+    .text-compress{
+        width: 80%;
+    }
+  }
