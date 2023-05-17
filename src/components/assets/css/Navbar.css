@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 9th May 2023.
+    Last Update: 17th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -35,6 +35,7 @@
     transition: color 0.35s ease, filter 0.35s ease; /* Add transitions for color and filter properties on hover! */
     text-decoration: none; /* Remove text decoration for links! */
     position: relative; /* Create a stacking context for the pseudo-element! */
+    color: #ffffff; /* Forces the text to be White! */
   }  
   
   /* Styling for the underline effect on navbar links! */
@@ -59,4 +60,5 @@
   /* Brighten the text on hover! */
   .navbar-link:hover{
     filter: brightness(1.8); /* Increase brightness to 120% on hover! */
+    color: #ffffff; /* Forces the text to be White! */
   }

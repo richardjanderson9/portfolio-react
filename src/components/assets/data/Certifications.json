@@ -1,0 +1,60 @@
+{
+    "title": "My Certifications",
+    "buttonText": "View More!",
+    "displayInfo": [
+        {
+            "id": 1,
+            "imageData": {
+                "url": "https://picsum.photos/300/200",
+                "alt": "Image1",
+                "datatags": ["Image1"]
+            },
+            "modalData": {
+                "title": "Microsoft",
+                "text": "This is for the Microsoft Certs!",
+                "tag": "Microsoft"
+            },
+            "license": {
+                "type": "Type 1",
+                "owner": "Owner 1",
+                "link": "#1"
+            }
+        },
+        {
+            "id": 2,
+            "imageData": {
+                "url": "https://picsum.photos/300/200",
+                "alt": "Image2",
+                "datatags": ["Image2"]
+            },
+            "modalData": {
+                "title": "(ISC)²",
+                "text": "This is for the (ISC)² Certs!",
+                "tag": "(ISC)²"
+            },
+            "license": {
+                "type": "Type 2",
+                "owner": "Owner 2",
+                "link": "#2"
+            }
+        },
+        {
+            "id": 3,
+            "imageData": {
+                "url": "https://picsum.photos/300/200",
+                "alt": "Image3",
+                "datatags": ["Image3"]
+            },
+            "modalData": {
+                "title": "CompTIA",
+                "text": "This is for the CompTIA Certs!",
+                "tag": "CompTIA"
+            },
+            "license": {
+                "type": "Type 3",
+                "owner": "Owner 3",
+                "link": "#3"
+            }
+        }
+    ]
+}

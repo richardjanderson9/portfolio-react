@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 9th May 2023.
+    Last Update: 17th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -15,29 +15,36 @@
 *{
     /* Formatting for Page! | Colours & Fonts! */
     font-family: 'Inter', sans-serif; /* Sets Font! */
-    background: #000000; /* Background Colour! */
     text-align: center; /* Allgns Text! */
     color: #ffffff; /* Text Colour! */
     /* Formatting for Page! | Basic Structure & Layout! */
     margin: 0; /* sets the margin of the element to 0 */
+}
+body{
+    /* Formatting for Page! | Colours & Fonts! */
+    background: #000000; /* Background Colour! */
 }
 
 /* || Code for Height of Each Section! */
 /* Sections: Header, AboutMe, Certifications, Projects! */
 .block-general{
     min-height: 100vh;  /* Set the height of the section! */
+    border-bottom: 1.75px dashed white;  /* Set information about the testing line! */
 }
 /* Section: NavBar! */
 .block-navbar{
     min-height: 4.25vh;  /* Set the height of the section! */
+    border-bottom: 1.75px dashed white;  /* Set information about the testing line! */
 }
 /* Section: Contact! */
 .block-contact{
     min-height: 67.5vh;  /* Set the height of the section! */
+    border-bottom: 1.75px dashed white;  /* Set information about the testing line! */
 }
 /* Section: Footer! */
 .block-footer{
     min-height: 7.5vh;  /* Set the height of the section! */
+    border-bottom: 1.75px dashed white;  /* Set information about the testing line! */
 }
 
 /* || Formatting General! | Structure! */
@@ -57,6 +64,11 @@
 /* Details: Any Links! */
 .formatting-links{
     text-decoration: none; /* Blocks the underline for links! */
+}
+/* Details: Modal Design! */
+.formatting-modal{
+    text-align: left; /* Set the text alignment to left */
+    color: #000000; /* Set the text color to black */    
 }
 
 /* || Formatting General! | Text! */
@@ -85,11 +97,6 @@
 /* Details: Header Button! */ 
 .header-button{
     font-size: 2.1rem; /* Reduced font size by 50% */
-}
-
-/* || Testing Outline! */
-.testing-outline{
-    border-bottom: 1.75px dashed white;  /* Set information about the testing line! */
 }
 
 /* || Scrollbar Changes! */

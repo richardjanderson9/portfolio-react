@@ -1,24 +1,34 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 7th May 2023.
+    Last Update: 17th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
         GitHub: https://github.com/richardjanderson9/
 */
 
-// Importing styles from other files (CSS)!
-import '../components/assets/css/App.css'; // Importing styles from the './App.css' file to use across components.
+import React from "react";
+import certificationsData from "./assets/data/Certifications.json";
+import DisplayCard from "./assets/js/displayCard";
 
-// Define the Certifications component!
 function Certifications() {
-    const data = ("Certifications!");
-    return (
+  const jsonData = certificationsData;
+
+  return (
+    <section className="block-general formatting-general text-general">
+      <h1 className="text-heading">{jsonData.title}</h1>
       <div>
-        <h1 className="block-general testing-outline">Loaded: {data}</h1>
+        {jsonData.displayInfo.map(({ id, imageData, modalData }) => (
+          <div key={id}>
+            <img src={imageData.url} alt={imageData.alt}/>
+            <br />
+            <DisplayCard buttonText={jsonData.buttonText} modalTitle={modalData.title} modalContent={modalData.text} />
+          </div>
+        ))}
       </div>
-    );
-  }
-  
-export default Certifications; // Export the component for use in other parts of the application!  
+    </section>
+  );
+}
+
+export default Certifications;
