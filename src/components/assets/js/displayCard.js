@@ -1,19 +1,19 @@
 /*
-    Writen By Richard Anderson!
+    Written By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 17th May 2023.
+    Last Update: 18th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
         GitHub: https://github.com/richardjanderson9/
 */
 
+// Import necessary modules and styles!
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import { Button, Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function DisplayCard({ buttonText, modalTitle, modalContent }) {
+function DisplayCard({ buttonText, displayInfo }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -27,9 +27,16 @@ function DisplayCard({ buttonText, modalTitle, modalContent }) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title className='formatting-modal'>{modalTitle} Certifications!</Modal.Title>
+          <Modal.Title className='formatting-modal-text'>{displayInfo.modalData.title} Certifications!</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='formatting-modal'>{modalContent}</Modal.Body>
+        <Modal.Body className='formatting-modal-text'>
+          {Object.values(displayInfo.modalData.text).map((cert) => (
+            <div key={cert.name} className='text-modal'>
+              <p className='text-modal-setleft'>{cert.name}</p>
+              <a className='text-modal-setright' href={cert.link} target="_blank" rel="noreferrer">Verify!</a>
+            </div>
+          ))}
+        </Modal.Body>
       </Modal>
     </>
   );

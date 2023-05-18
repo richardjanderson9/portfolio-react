@@ -5,14 +5,36 @@
         {
             "id": 1,
             "imageData": {
-                "url": "https://picsum.photos/300/200",
+                "url": "icon-microsoft.png",
                 "alt": "Image1",
-                "datatags": ["Image1"]
+                "datatags": ["Image1"],
+                "width": 450,
+                "height": 225
             },
             "modalData": {
                 "title": "Microsoft",
-                "text": "This is for the Microsoft Certs!",
-                "tag": "Microsoft"
+                "text": {
+                    "cert1": {
+                        "name": "MSCert 1!",
+                        "link": "#MSLink1!",
+                        "date": "Jan-2023"
+                    },
+                    "cert2": {
+                        "name": "MSCert 2!",
+                        "link": "#MSLink2!",
+                        "date": "Jan-2023"
+                    },
+                    "cert3": {
+                        "name": "MSCert 3!",
+                        "link": "#MSLink3!",
+                        "date": "Jan-2023"
+                    },
+                    "cert4": {
+                        "name": "MSCert 4!",
+                        "link": "#MSLink4!",
+                        "date": "Jan-2023"
+                    }
+                }
             },
             "license": {
                 "type": "Type 1",
@@ -23,14 +45,36 @@
         {
             "id": 2,
             "imageData": {
-                "url": "https://picsum.photos/300/200",
+                "url": "icon-isc2.png",
                 "alt": "Image2",
-                "datatags": ["Image2"]
+                "datatags": ["Image2"],
+                "width": 450,
+                "height": 225
             },
             "modalData": {
                 "title": "(ISC)²",
-                "text": "This is for the (ISC)² Certs!",
-                "tag": "(ISC)²"
+                "text": {
+                    "cert1": {
+                        "name": "ISCCert 1!",
+                        "link": "#ISCLink1!",
+                        "date": "Feb-2023"
+                    },
+                    "cert2": {
+                        "name": "ISCCert 2!",
+                        "link": "#ISCLink2!",
+                        "date": "Feb-2023"
+                    },
+                    "cert3": {
+                        "name": "ISCCert 3!",
+                        "link": "#ISCLink3!",
+                        "date": "Feb-2023"
+                    },
+                    "cert4": {
+                        "name": "ISCCert 4!",
+                        "link": "#ISCLink4!",
+                        "date": "Feb-2023"
+                    }
+                }
             },
             "license": {
                 "type": "Type 2",
@@ -41,14 +85,36 @@
         {
             "id": 3,
             "imageData": {
-                "url": "https://picsum.photos/300/200",
+                "url": "icon-comptia.png",
                 "alt": "Image3",
-                "datatags": ["Image3"]
+                "datatags": ["Image3"],
+                "width": 450,
+                "height": 225
             },
             "modalData": {
                 "title": "CompTIA",
-                "text": "This is for the CompTIA Certs!",
-                "tag": "CompTIA"
+                "text": {
+                    "cert1": {
+                        "name": "CTIACert 1!",
+                        "link": "#CTIALink1!",
+                        "date": "March-2023"
+                    },
+                    "cert2": {
+                        "name": "CTIACert 2!",
+                        "link": "#CTIALink2!",
+                        "date": "March-2023"
+                    },
+                    "cert3": {
+                        "name": "CTIACert 3!",
+                        "link": "#CTIALink3!",
+                        "date": "March-2023"
+                    },
+                    "cert4": {
+                        "name": "CTIACert 4!",
+                        "link": "#CTIALink4!",
+                        "date": "March-2023"
+                    }
+                }
             },
             "license": {
                 "type": "Type 3",
