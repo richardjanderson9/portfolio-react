@@ -1,14 +1,14 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 18th May 2023.
+    Last Update: 19th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
         GitHub: https://github.com/richardjanderson9/
 */
 
-/* Importing the 'Inter' font from Google Fonts */
+/* Importing the 'Inter' font from Google Fonts! */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 /* Code for App Body! */
@@ -17,12 +17,12 @@
     font-family: 'Inter', sans-serif; /* Sets Font! */
     text-align: center; /* Allgns Text! */
     /* Formatting for Page! | Basic Structure & Layout! */
-    margin: 0; /* sets the margin of the element to 0 */
+    margin: 0; /* sets the margin of the element to 0! */
 }
 body{
     /* Formatting for Page! | Colours & Fonts! */
     background: #000000; /* Background Colour! */    
-    overflow-x: hidden; /* Prevent horizontal scrolling */    
+    overflow-x: hidden; /* Prevent horizontal scrolling! */    
     color: #ffffff; /* Text Colour! */
 }
 
@@ -52,8 +52,8 @@ body{
 /* Details: General Formatting! */
 .formatting-general{
     justify-content: center; /* Center align the navbar contents horizontally! */    
-    box-sizing: border-box; /* Include padding within the element's total width/height */
-    flex-direction: column; /* Stack items vertically */
+    box-sizing: border-box; /* Include padding within the element's total width/height! */
+    flex-direction: column; /* Stack items vertically! */
     align-items: center; /* Center align the navbar contents vertically! */
     display: flex; /* Use flexbox to align navbar contents! */
 }
@@ -68,16 +68,30 @@ body{
 }
 /* Details: Cards Design! */
 .formatting-cards{
-    grid-template-columns: repeat(3, 1fr); /* Display as 3 columns on a large device */   
-    grid-gap: 10px; /* Add some gap between the elements */
-    display: grid; /* Use grid display */
+    grid-template-columns: repeat(3, 1fr); /* Display as 3 columns on a large device! */   
+    grid-gap: 10px; /* Add some gap between the elements! */
+    display: grid; /* Use grid display! */
+}
+/* Details: Cards Design (Image)! */
+.formatting-cards-images{
+    border-radius: 15px;    
+    border: #ffffff 1px solid;
+}
+/* Details: Modal Design (Button:General)! */
+.formatting-modal-button{
+    background-color: #006500; /* Set the background color! */
+    border: none; /* Remove the border! */
+}
+/* Details: Modal Design (Button:Hover)! */
+.formatting-modal-button:hover{
+    background-color: #006500; /* Set the background color! */
+    border: none; /* Remove the border! */
 }
 /* Details: Modal Design (Text)! */
 .formatting-modal-text{
-    text-align: left; /* Set the text alignment to left */
-    color: #000000; /* Set the text color to black */    
+    text-align: left; /* Set the text alignment to left! */
+    color: #000000; /* Set the text color to black! */    
 }
-
 /* || Formatting General! | Text! */
 /* Details: General Sizes! | H1 Tag! */
 .text-general h1{
@@ -89,13 +103,13 @@ body{
 }
 /* Details: Heading Sizes! */
 .text-heading{
-    margin-bottom: 1rem; /* Add space below the heading */
-    font-weight: 500; /* Specify the font weight */
+    margin-bottom: 1rem; /* Add space below the heading! */
+    font-weight: 500; /* Specify the font weight! */
 }
 /* Details: Information Sizes! */ 
 .text-information{
-    margin-bottom: 1.5rem; /* Add space below the description */
-    font-weight: 500; /* Specify the font weight */
+    margin-bottom: 1.5rem; /* Add space below the description! */
+    font-weight: 500; /* Specify the font weight! */
 }
 /* Details: Text Compress! */
 .text-compress{
@@ -103,21 +117,22 @@ body{
 }
 /* Details: Modal Text! */
 .text-modal{
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Align items vertically at the center */
+    display: flex; /* Use flexbox for layout! */
+    align-items: center; /* Align items vertically at the center! */
 }
 /* Details: Modal Text - Sets to Left! */
 .text-modal-setleft{
-    margin-right: auto; /* Pushes the element to the left by consuming remaining space */
+    margin-right: auto; /* Pushes the element to the left by consuming remaining space! */
+    margin-bottom: 0;
 }
 /* Details: Modal Text - Sets to Right! */
 .text-modal-setright{
-    text-decoration: none; /* Remove underline or strikethrough from text */
-    margin-left: auto; /* Pushes the element to the right by consuming remaining space */
+    text-decoration: none; /* Remove underline or strikethrough from text! */
+    margin-left: auto; /* Pushes the element to the right by consuming remaining space! */
 }
 /* Details: Header Button! */ 
 .header-button{
-    font-size: 2.1rem; /* Reduced font size by 50% */
+    font-size: 2.1rem; /* Reduced font size by 50%! */
 }
 
 /* || Scrollbar Changes! */

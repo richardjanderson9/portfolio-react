@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 18th May 2023.
+    Last Update: 19th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -18,12 +18,12 @@ function Certifications() {
   return (
     <section className="block-general formatting-general">
       <h1 className="text-heading">{jsonData.title}</h1>
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 formatting-cards">
+      <div className="formatting-cards">
         {jsonData.displayInfo.map(({ id, imageData, modalData, license }) => (
           <div className="col card-container" key={id}>
-            <img src={imageData.url} alt={imageData.alt} width={imageData.width} height={imageData.height} />
+            <img src={imageData.url} alt={imageData.alt} width={imageData.width} height={imageData.height} className="formatting-cards-images"/>
             <br />
-            <DisplayCard displayInfo={{ modalData, license }} buttonText={jsonData.buttonText} />
+            <DisplayCard displayInfo={{ modalData, license }} buttonText={jsonData.buttonText} credlyLink={jsonData.credlyLink}/>
           </div>
         ))}
       </div>

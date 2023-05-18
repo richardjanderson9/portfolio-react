@@ -1,6 +1,7 @@
 {
     "title": "My Certifications",
     "buttonText": "View More!",
+    "credlyLink": "https://www.credly.com/badges/",
     "displayInfo": [
         {
             "id": 1,
@@ -15,24 +16,28 @@
                 "title": "Microsoft",
                 "text": {
                     "cert1": {
-                        "name": "MSCert 1!",
-                        "link": "#MSLink1!",
-                        "date": "Jan-2023"
+                        "name": "Azure Fundamentals",
+                        "badgeID": "834e48fd-438a-471f-9fde-8f4c60bf48cd",
+                        "date": "23-06-2022",
+                        "level": "Fundamental"
                     },
                     "cert2": {
-                        "name": "MSCert 2!",
-                        "link": "#MSLink2!",
-                        "date": "Jan-2023"
+                        "name": "Security, Compliance, & Identity Fundamentals",
+                        "badgeID": "c94e3aec-6e90-4f7f-819f-a55e2b83ce9d",
+                        "date": "13-07-2022",
+                        "level": "Fundamental"
                     },
                     "cert3": {
-                        "name": "MSCert 3!",
-                        "link": "#MSLink3!",
-                        "date": "Jan-2023"
+                        "name": "Microsoft 365 Fundamentals",
+                        "badgeID": "92e8aa20-3bea-47c9-be70-929efd573cf7",
+                        "date": "10-09-2022",
+                        "level": "Fundamental"
                     },
                     "cert4": {
-                        "name": "MSCert 4!",
-                        "link": "#MSLink4!",
-                        "date": "Jan-2023"
+                        "name": "Identity & Access Administrator Associate",
+                        "badgeID": "0c8e8f34-e2ad-4697-a3a9-542d18d9d030",
+                        "date": "10-12-2022",
+                        "level": "Associate"
                     }
                 }
             },
@@ -55,24 +60,16 @@
                 "title": "(ISC)²",
                 "text": {
                     "cert1": {
-                        "name": "ISCCert 1!",
-                        "link": "#ISCLink1!",
-                        "date": "Feb-2023"
+                        "name": "Certified in Cybersecurity (CC)",
+                        "badgeID": "6bf51a34-c246-4fcd-8ed1-4aa962dbbaca",
+                        "date": "02-09-2023",
+                        "level": "Entry"
                     },
                     "cert2": {
-                        "name": "ISCCert 2!",
-                        "link": "#ISCLink2!",
-                        "date": "Feb-2023"
-                    },
-                    "cert3": {
-                        "name": "ISCCert 3!",
-                        "link": "#ISCLink3!",
-                        "date": "Feb-2023"
-                    },
-                    "cert4": {
-                        "name": "ISCCert 4!",
-                        "link": "#ISCLink4!",
-                        "date": "Feb-2023"
+                        "name": "Systems Security Certified Practitioner (SSCP)",
+                        "badgeID": "15acac13-cc74-4bf5-a999-78381a269abb",
+                        "date": "31-03-2023",
+                        "level": "Advanced"
                     }
                 }
             },
@@ -95,24 +92,10 @@
                 "title": "CompTIA",
                 "text": {
                     "cert1": {
-                        "name": "CTIACert 1!",
-                        "link": "#CTIALink1!",
-                        "date": "March-2023"
-                    },
-                    "cert2": {
-                        "name": "CTIACert 2!",
-                        "link": "#CTIALink2!",
-                        "date": "March-2023"
-                    },
-                    "cert3": {
-                        "name": "CTIACert 3!",
-                        "link": "#CTIALink3!",
-                        "date": "March-2023"
-                    },
-                    "cert4": {
-                        "name": "CTIACert 4!",
-                        "link": "#CTIALink4!",
-                        "date": "March-2023"
+                        "name": "CompTIA CySA+",
+                        "badgeID": "35bad191-4c3d-46c4-9d69-5c7f0b73f75d",
+                        "date": "10-10-2023",
+                        "level": "Intermediate"
                     }
                 }
             },
