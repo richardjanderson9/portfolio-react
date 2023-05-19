@@ -9,8 +9,8 @@
                 "url": "icon-microsoft.png",
                 "alt": "Image1",
                 "datatags": ["Image1"],
-                "width": 450,
-                "height": 225
+                "width": 300,
+                "height": 150
             },
             "modalData": {
                 "title": "Microsoft",
@@ -53,8 +53,8 @@
                 "url": "icon-isc2.png",
                 "alt": "Image2",
                 "datatags": ["Image2"],
-                "width": 450,
-                "height": 225
+                "width": 300,
+                "height": 150
             },
             "modalData": {
                 "title": "(ISC)²",
@@ -85,8 +85,8 @@
                 "url": "icon-comptia.png",
                 "alt": "Image3",
                 "datatags": ["Image3"],
-                "width": 450,
-                "height": 225
+                "width": 300,
+                "height": 150
             },
             "modalData": {
                 "title": "CompTIA",

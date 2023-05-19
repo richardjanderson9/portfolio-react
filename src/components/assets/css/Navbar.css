@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 17th May 2023.
+    Last Update: 19th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -9,29 +9,30 @@
 */
 
 /* Styling for the navbar! */
-.navbar{
+.navbar-custom{
     height: 62.5px; /* Set the height of the navbar! */
     top: 0; /* Position the navbar at the top of the page! */
     width: 100%; /* Set the navbar width to full width! */
     z-index: 999; /* Ensure the navbar appears above other elements! */
     position: fixed; /* Fix the navbar position! */
+    background-color: black;  /* Set the color of the underline to black! */
   }
   
   /* Styling for the navbar list! */
-  .navbar-list{
+  .navbar-custom-list{
     list-style-type: none; /* Remove default list styling! */
     display: flex; /* Use flexbox to align list items horizontally! */
     justify-content: space-between; /* Distribute list items evenly! */
     width: 525px; /* Set a fixed width for the navbar list! */
-    padding: 0; /* Remove padding from the navbar list! */
+    padding: 15px 0px 0px 0px; /* Remove padding from the navbar list! */
   }
   
   /* Styling for the navbar items! */
-  .navbar-item{
+  .navbar-custom-item{
     margin: 0 10px; /* Add margin between navbar items! */
   }
   
-  .navbar-link {
+  .navbar-custom-link {
     transition: color 0.35s ease, filter 0.35s ease; /* Add transitions for color and filter properties on hover! */
     text-decoration: none; /* Remove text decoration for links! */
     position: relative; /* Create a stacking context for the pseudo-element! */
@@ -39,7 +40,7 @@
   }  
   
   /* Styling for the underline effect on navbar links! */
-  .navbar-link::after{
+  .navbar-custom-link::after{
     content: ""; /* Create an empty content! */
     position: absolute; /* Position the pseudo-element absolutely! */
     left: 50%; /* Align the pseudo-element to the middle! */
@@ -52,13 +53,13 @@
   }
   
   /* Styling for the underline effect on navbar links on hover! */
-  .navbar-link:hover::after{
+  .navbar-custom-link:hover::after{
     width: 100%; /* Expand the width to 100% on hover! */
     transform: translateX(-50%); /* Keep the pseudo-element centered during the animation! */
   }
   
   /* Brighten the text on hover! */
-  .navbar-link:hover{
+  .navbar-custom-link:hover{
     filter: brightness(1.8); /* Increase brightness to 120% on hover! */
     color: #ffffff; /* Forces the text to be White! */
   }

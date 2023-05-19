@@ -161,10 +161,10 @@ body{
 }
 /* Changes for Mobile Device(s)!*/
 @media (max-width: 767px){
-    .navbar{
+    .navbar-custom{
       zoom: 87.5%; /* Set zoom level to specific value on mobile! */
     }
-    .navbar-list{
+    .navbar-custom-list{
       width: 400px; /* Set a fixed width (px) for the navbar list! */
     }
     .text-compress{

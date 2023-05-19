@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 9th May 2023.
+    Last Update: 19th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -16,13 +16,13 @@ const Navbar = () => {
   let { links } = linksData;
 
   return (
-    <nav className="navbar formatting-general">
-      <ul className="navbar-list">
+    <nav className="navbar-custom formatting-general">
+      <ul className="navbar-custom-list">
         {links.map(({ url, openInNewTab, title }, index) => (
-          <li className="navbar-item" key={index}>
+          <li className="navbar-custom-item" key={index}>
             <a
               href={url}
-              className="navbar-link"
+              className="navbar-custom-link"
               target={openInNewTab ? '_blank' : '_self'}
               rel={openInNewTab ? 'noopener noreferrer' : ''}
             >
