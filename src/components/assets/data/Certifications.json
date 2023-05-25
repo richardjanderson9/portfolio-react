@@ -1,16 +1,18 @@
 {
     "title": "My Certifications",
     "buttonText": "View More!",
+    "imageFormat": ".jpeg",
     "credlyLink": "https://www.credly.com/badges/",
+    "microsoftLink": "https://www.credly.com/badges/",
     "displayInfo": [
         {
             "id": 1,
             "imageData": {
-                "url": "icon-microsoft.png",
+                "fileName": "icon-microsoft",
                 "alt": "Image1",
                 "datatags": ["Image1"],
-                "width": 300,
-                "height": 150
+                "width": 250,
+                "height": 140
             },
             "modalData": {
                 "title": "Microsoft",
@@ -50,11 +52,11 @@
         {
             "id": 2,
             "imageData": {
-                "url": "icon-isc2.png",
+                "fileName": "icon-isc2",
                 "alt": "Image2",
                 "datatags": ["Image2"],
-                "width": 300,
-                "height": 150
+                "width": 250,
+                "height": 140
             },
             "modalData": {
                 "title": "(ISC)²",
@@ -82,11 +84,11 @@
         {
             "id": 3,
             "imageData": {
-                "url": "icon-comptia.png",
+                "fileName": "icon-comptia",
                 "alt": "Image3",
                 "datatags": ["Image3"],
-                "width": 300,
-                "height": 150
+                "width": 250,
+                "height": 140
             },
             "modalData": {
                 "title": "CompTIA",

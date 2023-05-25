@@ -1,7 +1,7 @@
 /*
     Writen By Richard Anderson!
     Project: Personal Portfolio!
-    Last Update: 19th May 2023.
+    Last Update: 25th May 2023.
     Social(s):
         LinkedIn: https://www.linkedin.com/in/richardjanderson9/
         Website: https://portfolio.richardjanderson.uk/
@@ -74,12 +74,12 @@ body{
 }
 /* Details: Cards Design (Image)! */
 .formatting-cards-images{
-    border-radius: 15px;    
-    border: #ffffff 1px solid;
+    border-radius: 145px;  /* Set the border radius of the images! */
 }
 /* Details: Modal Design (Button:General)! */
 .formatting-modal-button{
     background-color: #006500; /* Set the background color! */
+    margin-top: 7.5px; /*  */
     border: none; /* Remove the border! */
 }
 /* Details: Modal Design (Button:Hover)! */
